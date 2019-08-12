@@ -2,7 +2,14 @@
 
 This cli utility builds a sh project directory into a .tar file.
 
+Install this globally by running
+
+```sh
+$ npm install -g @77io/sh-script-builder
+```
+
 _Project structure_
+
 Setup your project in the following way for this utility to work correctly
 
 - project-name
