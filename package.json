@@ -1,0 +1,28 @@
+{
+  "name": "@77io/sh-script-buidler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "sh-script-build": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "build-start": "npm run build && npm run start",
+    "test-bin": "npm run build && node bin/index.js c:\\77-modules\\sh-script-builder\\test project.tgz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/archiver": "^3.0.0",
+    "@types/node": "^12.7.1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "archiver": "^3.1.1",
+    "eol": "^0.9.1"
+  }
+}

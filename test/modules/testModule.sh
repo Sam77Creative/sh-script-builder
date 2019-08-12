@@ -1,0 +1,3 @@
+function testModule {
+    echo "hello";
+}
