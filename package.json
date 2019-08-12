@@ -1,5 +1,5 @@
 {
-  "name": "@77io/sh-script-buidler",
+  "name": "@77io/sh-script-builder",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
