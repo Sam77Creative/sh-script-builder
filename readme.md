@@ -21,5 +21,5 @@ _tar structure_
 _Invoking the script_
 
 ```sh
-$ sh-scipt-build /path/to/your/project outputName.tgz
+$ sh-script-build /path/to/your/project outputName.tgz
 ```
